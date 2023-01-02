@@ -25,5 +25,7 @@ module.exports = {
 	],
 	"rules": {
 		"prettier/prettier": 2,
+		"vue/multi-word-component-names": 0,
+		"no-explicit-any": 0
 	}
 };

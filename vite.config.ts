@@ -10,6 +10,11 @@ export default defineConfig({
       overlay: false,
     },
   },
+  resolve: {
+    alias: {
+      src: "/src",
+    },
+  },
   plugins: [vue(), viteEslint()],
   css: {
     // 进行 PostCSS 配置
